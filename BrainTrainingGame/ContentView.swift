@@ -151,7 +151,7 @@ struct ContentView: View {
             correctMoveCount += 1
             score += 1
         } else {
-            scoreTitle = "You should choose \(correctMove)"
+            scoreTitle = "You should've chosen \(correctMove)"
             wrongMoveCount += 1
             if score > 0 {
                 score -= 1
