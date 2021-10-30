@@ -130,7 +130,7 @@ struct ContentView: View {
         .alert(scoreTitle, isPresented: $showingRestartGame) {
             Button("Restart game", action: reset)
         } message: {
-            Text("Gave over! Your score is \(score).")
+            Text("Game over! Your score is \(score).")
         }
     }
     
